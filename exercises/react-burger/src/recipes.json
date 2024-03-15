@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Leia Burger",
+        "ingredients": ["cheese", "meat"]
+    },
+    {
+        "name": "Luke Burger",
+        "ingredients": ["tomato", "meat", "lettuce"]
+    },
+    {
+        "name": "Ham Solo Burger",
+        "ingredients": ["bacon", "cheese", "meat"]
+    },
+    {
+        "name": "Double Ham Solo",
+        "ingredients": ["bacon", "cheese", "meat", "cheese", "meat"]
+    },
+    {
+        "name": "All-green Yoda Burger",
+        "ingredients": ["cheese", "tomato", "cucumber", "lettuce"]
+    },
+    {
+        "name": "The Chewbacca",
+        "ingredients": ["tomato", "cucumber", "cheese", "meat", "meat", "meat"]
+    },
+    {
+        "name": "Darth Vader Burger",
+        "ingredients": ["tomato", "cucumber", "bacon", "cheese", "meat", "lettuce"]
+    },
+    {
+        "name": "The Emperor",
+        "ingredients": ["bacon", "cheese", "meat", "bacon", "cheese", "meat", "bacon", "cheese", "meat"]
+    }
+]

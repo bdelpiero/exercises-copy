@@ -1,0 +1,20 @@
+{
+  "name": "my-jest-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jest": "24.8.0"
+  },
+  "scripts": {
+    "start": "jest"
+  },
+  "compilebox": {
+    "defaultFile": "index.test.js",
+    "scripts": [
+      [
+        "Run Tests",
+        "server:runquery"
+      ]
+    ]
+  }
+}

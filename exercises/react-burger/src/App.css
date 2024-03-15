@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.App > header {
+  padding: 20px;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #DE6449
+}
+
+.App > main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1380px;
+  flex-wrap: wrap;
+  flex-grow: 1
+}

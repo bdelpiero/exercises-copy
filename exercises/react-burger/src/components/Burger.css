@@ -1,0 +1,29 @@
+.burger {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.burger .ingredient {
+    transition: margin-top .150s ease-in
+}
+
+.burger .ingredient:not(:last-child) {
+    margin-top: -60px;
+}
+
+.burger .ingredient.lettuce {
+    margin-top: -75px;
+}
+.burger .ingredient.bacon {
+    margin-bottom: -10px;
+}
+
+.burger .ingredient.bread-bottom {
+    margin-top: -65px;
+}
+
+.burger:hover .ingredient:not(:last-child) {
+    margin-top: -40px;
+}

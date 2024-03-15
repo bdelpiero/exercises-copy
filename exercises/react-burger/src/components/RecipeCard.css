@@ -1,0 +1,48 @@
+.recipe-card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px #b3afaf;
+}
+
+.recipe-card h1 {
+    color: #DE6449;
+    font-weight: 800;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-size: 1.2em;
+}
+.recipe-card h2 {
+    font-weight: 800;
+    margin-bottom: 4px;
+    font-size: 1em;
+}
+
+.recipe-card .right-pane {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.recipe-card .right-pane .ingredients {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+.recipe-card .right-pane .ingredients div {
+    text-transform: capitalize;
+}
+.recipe-card .right-pane .ingredients div:before {
+    content: "• ";
+    color: #DE6449;
+}
+
+.recipe-card .right-pane .ingredients div:not(:last-child) {
+    margin-right: 5px;
+}
+

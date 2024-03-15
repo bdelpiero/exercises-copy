@@ -1,0 +1,9 @@
+{
+  "name": "hr-exercises",
+  "version": "1.0.0",
+  "description": "Sandbox for candidates to play",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
